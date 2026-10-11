@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iPhoneアプリSwitchLogの使い方、お問い合わせ先、データの扱いについてご案内します。">
+  <title>SwitchLog サポート</title>
+  <!-- 外部素材やスクリプトを使わず、問い合わせ操作まで通信を追加しない。 -->
+  <style>
+    :root { color-scheme: light; --ink: #20343c; --muted: #51646b; --accent: #126957; --border: #d7e3df; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #f5f8f7; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; font-size: 16px; line-height: 1.85; overflow-wrap: anywhere; }
+    a { color: #0a6255; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #166cba; outline-offset: 4px; }
+    .wrap { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 26px 0 20px; border-bottom: 1px solid var(--border); background: #fff; }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .brand { font-size: 21px; font-weight: 750; letter-spacing: -.02em; color: var(--ink); text-decoration: none; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; }
+    main { padding-top: 42px !important; padding-bottom: 40px !important; }
+    h1 { margin: 0 0 12px; font-size: clamp(28px, 5vw, 38px); line-height: 1.4; letter-spacing: -.03em; }
+    h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.5; }
+    p { margin: 0 0 16px; }
+    p:last-child { margin-bottom: 0; }
+    .eyebrow { margin-bottom: 8px; color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: 13px; }
+    .intro { color: var(--muted); max-width: 620px; }
+    .compatibility { display: inline-block; padding: 5px 12px; margin: 8px 0 28px; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-size: 14px; }
+    section { margin: 20px 0; padding: 24px; background: #fff; border: 1px solid var(--border); border-radius: 16px; }
+    .contact { border-top: 4px solid var(--accent); }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; max-width: 100%; margin: 4px 0 14px; padding: 10px 18px; border-radius: 10px; color: #fff; background: var(--accent); font-weight: 700; text-decoration: none; }
+    ul { margin: 0 0 16px; padding-left: 1.4em; }
+    li + li { margin-top: 6px; }
+    .note { color: var(--muted); font-size: 14px; }
+    footer { border-top: 1px solid var(--border); padding: 24px 0 32px; color: var(--muted); font-size: 14px; }
+    footer a { display: inline-block; padding: 8px 0; }
+    @media (max-width: 480px) { .wrap { padding: 0 20px; } main { padding-top: 30px !important; } section { padding: 20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap" aria-label="ページ案内">
+      <a class="brand" href="index.html" aria-current="page">SwitchLog</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">SUPPORT</p>
+    <h1>SwitchLog サポート</h1>
+    <p class="intro">登録したタスクをタップして、作業時間を記録。<br>使い方や困ったときの確認方法をご案内します。</p>
+    <p class="compatibility">iOS 18以降のiPhoneに対応</p>
+
+    <section aria-labelledby="start">
+      <h2 id="start">タップで開始・切り替え</h2>
+      <p>登録済みのタスクをタップすると計測が始まります。別のタスクを押すと前の計測を終了して切り替わり、大きな停止ボタン（■）を押すと終了します。計測中のタスクをもう一度押しても停止しません。</p>
+      <p>大項目は左右にスワイプして切り替えられます。大項目をまたいでも、同時に計測する記録は全体で1件です。計測のたびに文字を入力する必要はありません。</p>
+    </section>
+
+    <section aria-labelledby="layout">
+      <h2 id="layout">4・6・8個の表示設定</h2>
+      <p>左上の表示設定では、登録済みタスクの大きさを4・6・8個表示を目安に選べます。タスクを自動で追加する設定ではありません。登録が4件なら、8個の設定でも表示されるタスクは4件です。</p>
+      <p>タスクは一覧末尾から追加できます。画面サイズや文字サイズによって、1画面に表示できる数は変わります。</p>
+    </section>
+
+    <section aria-labelledby="records">
+      <h2 id="records">記録とバックアップ</h2>
+      <p>履歴は「分析 → 履歴」で確認・編集できます。「管理 → バックアップと書き出し」からバックアップやCSVを書き出せます。</p>
+      <p>計測と保存はネット接続なしで利用できます。記録はiPhoneのアプリ内に保存されます。OSの端末バックアップや、利用者が選ぶ「ファイル」・iCloud Driveなどへの書き出しによって、端末外に保存される場合があります。</p>
+      <p>アプリを削除する前に、必要な記録を別の場所へ書き出してください。OSのバックアップや書き出したコピーは別管理で、アプリを削除しても削除されません。</p>
+    </section>
+
+    <section class="contact" aria-labelledby="contact">
+      <h2 id="contact">お問い合わせ</h2>
+      <p>操作に関するご質問や不具合は、メールでお知らせください。</p>
+      <a class="button" href="mailto:nkurahg25@gmail.com">メールで問い合わせる</a>
+      <p><a href="mailto:nkurahg25@gmail.com">nkurahg25@gmail.com</a></p>
+      <p>不具合のご連絡では、次の情報があると確認しやすくなります。</p>
+      <ul>
+        <li>アプリのバージョン（「管理 → このアプリについて」で確認）</li>
+        <li>iPhoneの機種とiOSのバージョン</li>
+        <li>行った操作、起きたこと、表示されたメッセージ</li>
+      </ul>
+      <p>必要に応じて「外観と触覚 → 診断情報をコピー」も利用できます。診断情報は自動送信されません。送る内容はご自身で確認し、対応に必要な範囲だけを共有してください。画像にタスク名や個人情報がある場合は、不要な部分を隠してください。</p>
+      <p class="note">パスワードや秘密鍵は送らないでください。お問い合わせの情報は、回答と不具合対応に必要な範囲で取り扱います。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>運営者：harukazu niikura<br>最終更新日：2026年10月11日</p>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <p>© 2026 harukazu niikura</p>
+    </div>
+  </footer>
+</body>
+</html>
